@@ -17,7 +17,7 @@ public class AnalyzerDemo8 {
 public static void main(String[] args) throws IOException {
 	
 			StandardAnalyzer analyzer = new StandardAnalyzer(Version.LUCENE_36);
-			BufferedReader br = new BufferedReader(new FileReader("\\\\PRDSASAD02\\sasdata2\\user data\\Raymond\\ToyBookLifestyle.txt"));
+			BufferedReader br = new BufferedReader(new FileReader("..\\data\\input.txt"));
 			
 			ArrayList<String> list = new ArrayList<String>();
 			
@@ -36,7 +36,7 @@ public static void main(String[] args) throws IOException {
 			CharTermAttribute termAttr = ts.addAttribute(CharTermAttribute.class);
 			ts.reset();
 
-		    BufferedWriter xx = new BufferedWriter(new OutputStreamWriter(new FileOutputStream("C:\\Users\\rmapuranga\\Desktop\\lucene_out\\rezo.txt"),"UTF-8"));
+		    BufferedWriter xx = new BufferedWriter(new OutputStreamWriter(new FileOutputStream("..\\data\\output.txt"),"UTF-8"));
 			
 		    	 while(ts.incrementToken()) {
 					list.add(upc + "\t" + termAttr.toString());
