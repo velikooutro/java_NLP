@@ -5,4 +5,4 @@ Most complex analyzer which can identify special tokens (e.g., proper names, ema
 POS Tagger
 ==========
 Use Stanford CoreNLP (<http://nlp.stanford.edu/software/corenlp.shtml>) for part-of-speech tagging.
-CoreNLP also has additional information retrieval functionality like named-entity-recognition and sentiment analysis
+CoreNLP also has information retrieval functionality like named-entity-recognition and can do sentiment analysis
