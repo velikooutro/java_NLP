@@ -4,5 +4,5 @@ Most complex analyzer which can identify special tokens (e.g., proper names, ema
 
 Stanford CoreNLP
 ================
-Has NLP and info retrieval functionality like POS tagging, named-entity-recognition and sentiment analysis
+Use Stanford CoreNLP <http://nlp.stanford.edu/software/corenlp.shtml> for part-of-speech tagging NLP and info retrieval functionality like POS tagging, named-entity-recognition and sentiment analysis
 http://nlp.stanford.edu/software/corenlp.shtml
